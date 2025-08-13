@@ -1,0 +1,227 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', 'tahoma', 'verdana';
+    background-color: rgb(0, 11, 40);
+}
+
+
+/*HEADER DIV*/
+
+header{
+    background-color: black;
+}
+
+.logo img {
+    width: 150px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 163, 240);
+}
+
+header ul{
+    padding-bottom: 30px;
+}
+
+.titulo h1{
+    text-align: center;
+    color: rgb(0, 163, 240);
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+/*HEADER DIV*/
+
+
+
+
+/*PESQUISA*/
+.pesquisa{
+    margin-bottom: 5px;
+}
+
+.pesquisa input{
+    width: 15%;
+    text-align: center;
+    background-color: aliceblue;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+/*PESQUISA*/
+
+
+
+/*QUADROS*/
+
+#quadros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+/*QUADROS*/
+
+
+/*PRIMEIRA DIV*/
+
+#quadros .primeira{
+    width: 100px;
+    height: 250px;
+    background-color: rgb(15, 40, 109);
+    padding: 20px;
+    border-radius: 10px;
+}
+.primeira p{
+    font-size: 12px;
+    color: rgb(0, 163, 240);
+    text-align: center;
+}
+
+.primeira h4{
+    color: rgb(0, 163, 240);
+    text-align: center;
+}
+
+.primeira img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+/*PRIMEIRA DIV*/
+
+
+
+/*SEGUNDA DIV*/
+
+#quadros .segunda{
+    width: 100px;
+    height: 250px;
+    background-color: rgb(15, 40, 109);
+    padding: 20px;
+    border-radius: 10px;
+}
+.segunda p{
+    font-size: 12px;
+    color: rgb(0, 163, 240);
+    text-align: center;
+}
+
+.segunda h4{
+   color: rgb(0, 163, 240);
+    text-align: center;
+}
+
+.segunda img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+/*SEGUNDA DIV*/
+
+
+
+/*TERCEIRA DIV*/
+
+#quadros .terceira{
+    width: 100px;
+    height: 250px;
+    background-color: rgb(15, 40, 109);
+    padding: 20px;
+    border-radius: 10px;
+}
+.terceira p{
+    font-size: 12px;
+   color: rgb(0, 163, 240);
+    text-align: center;
+}
+
+.terceira h4{
+    color: rgb(0, 163, 240);
+    text-align: center;
+}
+
+.terceira img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+}
+/*TERCEIRA DIV*/
+
+
+/*TITULO2*/
+.titulo2 H1{
+    color: rgb(0, 163, 240);
+    text-align: center;
+    margin-top: 20%;
+}
+/*TITULO2*/
+
+
+
+
+/*RECOMENDAÇÕES */
+#recomendações {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#recomendações ul {
+    margin-top: 10%;
+    list-style: none;
+    color: rgb(0, 163, 240);
+}
+
+ul img{
+    width: 30%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+#recomendações p{
+    font-size: 8px;
+    text-align: center;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+/*RECOMENDAÇÕES */
+
+
+
+/*FLOOTER */
+#flooter flooter{
+    text-align: center;
+    background-color: black;
+    
+}
+
+#flooter p {
+    color: rgb(0, 163, 240);
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20%;
+}
+/*FLOOTER */
